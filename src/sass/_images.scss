@@ -1,0 +1,62 @@
+.wrapper {
+	display:flex;
+	flex-direction:column;
+}
+.lineone {
+	.one {
+		background:purple;
+		flex-grow:1;
+	}
+	.two {
+		background:violet;
+		flex-grow:1;
+	}
+	.three {
+		background:lavender;
+		flex-grow:1;
+	}
+	.four {
+		background:indigo;
+		flex-grow:1;
+	}
+}
+.linetwo {
+	.five {
+		background:lightblue;
+		flex-grow:1;
+	}
+	.six {
+		background:blue;
+		flex-grow:1;
+	}
+	.trailer {
+		background:black;
+		flex-grow:2;
+		p { 
+			color:white;}
+	}
+}
+.linethree {
+	.nine {
+		background:red;
+		flex-grow:1;
+	}
+	.ten {
+		background:crimson;
+		flex-grow:1;
+	}
+	.eleven {
+		background:brown;
+		flex-grow:1;
+	}
+	.twelve {
+		background:orange;
+		flex-grow:1;
+	}
+}
+
+@media screen and (min-width:700px) {
+	.lineone, .linetwo, .linethree {
+		flex-direction:row;
+	}
+}

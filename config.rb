@@ -1,9 +1,7 @@
 # Require any additional Compass plugins here:
 # Set this to the root of your project when deployed:
-css_dir = "assets/css"
-sass_dir = "src/sass"
-images_dir = "assets/"
-http_generated_images_path = "../"
+css_dir = "assets/css/"
+sass_dir = "src/sass/"
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 output_style = :expanded
